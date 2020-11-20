@@ -1,0 +1,211 @@
+.modal-dialog {
+  max-width: 1200px;
+}
+
+.modal-body {
+  overflow-x: hidden;
+}
+
+.modal-content {
+  border: none;
+}
+
+.cross-click {
+  margin: auto 5px;
+  float: right;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  border: none;
+}
+
+.inputLabel {
+  vertical-align: center;
+  margin: auto 5px;
+  text-align: left;
+}
+
+.form-cancel {
+  position: relative;
+  color: black;
+  // right: 58%;
+  right: 25rem;
+  width: 120px;
+  height: 32px;
+  background: inherit;
+  background-color: white;
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 2px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.modal-main {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  background: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(170, 170, 170, 1);
+  border-radius: 4px;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0313725490196078);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0313725490196078);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0313725490196078);
+}
+
+.form-cancel:hover {
+  background-color: rgb(93, 93, 93);
+  color: white;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+}
+
+.form-disable-save {
+  position: relative;
+  color: white;
+  left: 0px;
+  width: 120px;
+  height: 32px;
+  background: inherit;
+  background-color: rgba(0, 118, 214, 1);
+  border: none;
+  border-radius: 2px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.form-save {
+  position: relative;
+  color: white;
+  left: 0px;
+  width: 120px;
+  height: 32px;
+  background: inherit;
+  background-color: rgba(0, 118, 214, 1);
+  border: none;
+  border-radius: 2px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.form-save:disabled {
+  color: #0076d6;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #0076d6;
+}
+
+/*.form-save:hover {
+  background: rgba(0, 83, 128, 1);
+}*/
+
+.displayName {
+  border-radius: 0 0.25rem 0.25rem 0;
+  border: 1px solid #c3c3c3;
+  padding-left: 5px;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+}
+
+.displayName:invalid {
+  border-radius: 0 0.25rem 0.25rem 0;
+  border: 1px solid #c3c3c3;
+  border-left: 5px solid #ff2922;
+  padding-left: 5px;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+}
+
+.m-title {
+  margin: auto 5px;
+}
+
+.m-header {
+  margin-top: 0.7rem;
+  padding-left: 0.2rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #e9ecef;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.title {
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  color: #152935;
+}
+
+.modal-form {
+  position: relative;
+  padding-left: 1rem;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+}
+
+.sub-title {
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #152935;
+}
+
+.flex {
+  display: flex;
+}
+
+.inputSection {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.inputSection-last {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.center-align {
+  vertical-align: middle;
+}
+
+.deleteIconPosition {
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 2.5rem;
+}
+
+.duplicateCurrency {
+  color: #ff2922;
+  font-family: "Roboto-Regular", "Roboto", sans-serif;
+}
+
+/*.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #9b9b9b;
+  border-color: #6c6c6c;
+}*/

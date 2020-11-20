@@ -32,7 +32,20 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n    <app-header></app-header>\n\n    <app-home></app-home>\n\n    <app-footer></app-footer>\n\n\n<router-outlet></router-outlet>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n    \n\n    <app-home></app-home>\n\n    \n\n\n<router-outlet></router-outlet>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/emotions-form/emotions-form.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/emotions-form/emotions-form.component.html ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\">\n<meta http-equiv=\"Pragma\" content=\"no-cache\">\n<meta http-equiv=\"Expires\" content=\"0\">\n\n<div role=\"dialog\">\n\n    <div id=\"emotions-form\" style=\"margin-left: 21.8rem;\" class=\"modal-main bm-modal modal-dialog modal-dialog-centered\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"m-header\">\n          <h4 class=\"m-title modal-title\">{{ title }}</h4>\n          <button class=\"cross-click close\"\n                  (click)=\"activeModal.dismiss('Cross click')\">\n            <span aria-hidden=\"true\" style=\"padding-left: 5px; padding-right: 5px\">✖</span>\n          </button>\n        </div>\n  \n        <form [formGroup]=\"form\" (ngSubmit)=\"submitForm()\">\n  \n          <div class=\"modal-form\">\n\n            <div class=\"flex inputSection\">\n                <p class=\"inputLabel\">Username:</p>\n                <input id=\"username\" type=\"text\" class=\"displayName form-control\"\n                       formControlName=\"username\" ngbAutofocus >\n              </div>\n\n              <div class=\"flex inputSection\">\n                <p class=\"inputLabel\">Cause:</p>\n                <input id=\"cause\" type=\"text\" class=\"displayName form-control\" style=\"margin-left: 26px;\"\n                       formControlName=\"cause\" ngbAutofocus >\n              </div>\n\n            <div class=\"flex inputSection\">\n              <p class=\"inputLabel\">Channel:</p>\n              <select id=\"channel\" class=\"displayName form-control\" ngbAutofocus\n                      [value]=\"initialDropdownValue\" formControlName=\"channel\" style=\"margin: 0 0 10px 13px\">\n                <option id=\"channeloption\" class=\"btn btn-light\" *ngFor=\"let channel of channelList\">\n                  {{channel}}\n                </option>\n              </select>\n            </div>\n          </div>\n  \n          <div class=\"modal-footer\" >\n            <button id=\"form-cancel\" class=\"form-cancel bm-cancel\" (click)=\"onCancelled()\">Cancel</button>\n            <span container=\"body\" placement=\"top\">\n            <button id=\"form-save\" class=\"btn btn-primary form-save\"\n                    >Submit\n            </button>\n              </span>\n          </div>\n  \n        </form>\n      </div>\n    </div>\n  </div>");
 
 /***/ }),
 
@@ -71,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\">\n<meta http-equiv=\"Pragma\" content=\"no-cache\">\n<meta http-equiv=\"Expires\" content=\"0\">\n<div>\n    <div class=\"row\" style=\"margin: 5px 10px\"> \n    <div class=\"card col try col-margin\" (click)=\"onClick('Happy')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Happy</p>\n            <img src=\"./assets/images/LGfaceHappy.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin\" (click)=\"onClick('Ok')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Ok</p>\n        <img src=\"./assets/images/LGfaceOk.gif\" style=\"width: 210px; height: 210px;width: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n<div class=\"row\" style=\"margin: 0px 10px 5px 10px\">\n    <div class=\"card col try col-margin\" (click)=\"onClick('Unhappy')\">\n        <p class=\"text-center\">Unhappy</p>\n        <img src=\"./assets/images/LGfaceUnhappy.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin animated bounce infinite\" (click)=\"onClick('Frustrated')\">\n        <p class=\"text-center\">Frustrated</p>\n        <img src=\"./assets/images/LGfaceFrustrated.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\">\n<meta http-equiv=\"Pragma\" content=\"no-cache\">\n<meta http-equiv=\"Expires\" content=\"0\">\n<div >\n    <div class=\"row\" style=\"margin: 5px 10px\"> \n    <div class=\"card col try col-margin\" (click)=\"onClick('Happy')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Happy</p>\n            <img src=\"./assets/images/LGfaceHappy.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin\" (click)=\"onClick('INDIFFERENT')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">INDIFFERENT</p>\n        <img src=\"./assets/images/LGfaceOk.gif\" style=\"width: 210px; height: 210px;width: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n<div class=\"row\" style=\"margin: 0px 10px 5px 10px\">\n    <div class=\"card col try col-margin\" (click)=\"onClick('SAD')\">\n        <p class=\"text-center\">SAD</p>\n        <img src=\"./assets/images/LGfaceUnhappy.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin animated bounce infinite\" (click)=\"onClick('ANGRY')\">\n        <p class=\"text-center\">ANGRY</p>\n        <img src=\"./assets/images/LGfaceFrustrated.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n<div class=\"row\" style=\"margin-left: 20px;\">\n    <a href=\"https://grafana-route-team7-apps.apps.cluster-a45b.a45b.example.opentlc.com/d/rgjHsYTMz/emotion?orgId=1\">Graphana Link</a>\n</div>\n</div>");
 
 /***/ }),
 
@@ -422,8 +435,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
-/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
-/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
+/* harmony import */ var _components_emotions_form_emotions_form_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/emotions-form/emotions-form.component */ "./src/app/components/emotions-form/emotions-form.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
+/* harmony import */ var _services_dialog_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/dialog.service */ "./src/app/services/dialog.service.ts");
+
+
+
 
 
 
@@ -440,18 +459,110 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
             _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
-            _components_header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
-            _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"]
+            _components_header_header_component__WEBPACK_IMPORTED_MODULE_9__["HeaderComponent"],
+            _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_10__["FooterComponent"],
+            _components_emotions_form_emotions_form_component__WEBPACK_IMPORTED_MODULE_7__["EmotionsFormComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"].forRoot()
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_8__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_8__["ReactiveFormsModule"]
         ],
-        providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+        providers: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbActiveModal"], _services_dialog_service__WEBPACK_IMPORTED_MODULE_11__["DialogService"]],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
+        entryComponents: [
+            _components_emotions_form_emotions_form_component__WEBPACK_IMPORTED_MODULE_7__["EmotionsFormComponent"]
+        ]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/emotions-form/emotions-form.component.scss":
+/*!***********************************************************************!*\
+  !*** ./src/app/components/emotions-form/emotions-form.component.scss ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".modal-dialog {\n  max-width: 500px;\n}\n\n.displayName {\n  border-radius: 0 0.25rem 0.25rem 0;\n  width: 50%;\n  min-width: 200px;\n  border: 1px solid #c3c3c3;\n  padding-left: 5px;\n  font-family: \"Roboto-Regular\", \"Roboto\", sans-serif;\n}\n\n.displayName:invalid {\n  border-radius: 0 0.25rem 0.25rem 0;\n  width: 50%;\n  min-width: 200px;\n  border: 1px solid #c3c3c3;\n  border-left: 5px solid #ff2922;\n  padding-left: 5px;\n  font-family: \"Roboto-Regular\", \"Roboto\", sans-serif;\n}\n\n.select-padding {\n  margin: 20px 0;\n  padding: 20px 0;\n}\n\n.bm-cancel {\n  margin-right: -11.05rem;\n}\n\n.bm-modal {\n  top: 2rem;\n  width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9lbW90aW9ucy1mb3JtL0M6XFxhbmd1bGFyXFxMR0lNX0hhY2thdGhvblxcc2VudGktbWV0ZXItY2xpZW50L3NyY1xcYXBwXFxjb21wb25lbnRzXFxlbW90aW9ucy1mb3JtXFxlbW90aW9ucy1mb3JtLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL2Vtb3Rpb25zLWZvcm0vZW1vdGlvbnMtZm9ybS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNFLGdCQUFBO0FDREY7O0FESUE7RUFDRSxrQ0FBQTtFQUNBLFVBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtREFBQTtBQ0RGOztBRElBO0VBQ0Usa0NBQUE7RUFDQSxVQUFBO0VBQ0EsZ0JBQUE7RUFDQSx5QkFBQTtFQUNBLDhCQUFBO0VBQ0EsaUJBQUE7RUFDQSxtREFBQTtBQ0RGOztBRElBO0VBQ0UsY0FBQTtFQUNBLGVBQUE7QUNERjs7QURJQTtFQUNFLHVCQUFBO0FDREY7O0FESUE7RUFDRSxTQUFBO0VBQ0EsV0FBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9lbW90aW9ucy1mb3JtL2Vtb3Rpb25zLWZvcm0uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkbWluaW11bS1oZWlnaHQ6IDIwcHg7XHJcblxyXG4ubW9kYWwtZGlhbG9nIHtcclxuICBtYXgtd2lkdGg6IDUwMHB4O1xyXG59XHJcblxyXG4uZGlzcGxheU5hbWUge1xyXG4gIGJvcmRlci1yYWRpdXM6IDAgMC4yNXJlbSAwLjI1cmVtIDA7XHJcbiAgd2lkdGg6IDUwJTtcclxuICBtaW4td2lkdGg6IDIwMHB4O1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICNjM2MzYzM7XHJcbiAgcGFkZGluZy1sZWZ0OiA1cHg7XHJcbiAgZm9udC1mYW1pbHk6IFwiUm9ib3RvLVJlZ3VsYXJcIiwgXCJSb2JvdG9cIiwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuLmRpc3BsYXlOYW1lOmludmFsaWQge1xyXG4gIGJvcmRlci1yYWRpdXM6IDAgMC4yNXJlbSAwLjI1cmVtIDA7XHJcbiAgd2lkdGg6IDUwJTtcclxuICBtaW4td2lkdGg6IDIwMHB4O1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICNjM2MzYzM7XHJcbiAgYm9yZGVyLWxlZnQ6IDVweCBzb2xpZCAjZmYyOTIyO1xyXG4gIHBhZGRpbmctbGVmdDogNXB4O1xyXG4gIGZvbnQtZmFtaWx5OiBcIlJvYm90by1SZWd1bGFyXCIsIFwiUm9ib3RvXCIsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbi5zZWxlY3QtcGFkZGluZyB7XHJcbiAgbWFyZ2luOiAkbWluaW11bS1oZWlnaHQgMDtcclxuICBwYWRkaW5nOiAkbWluaW11bS1oZWlnaHQgMDtcclxufVxyXG5cclxuLmJtLWNhbmNlbCB7XHJcbiAgbWFyZ2luLXJpZ2h0OiAtMTEuMDVyZW07XHJcbn1cclxuXHJcbi5ibS1tb2RhbCB7XHJcbiAgdG9wOiAycmVtO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcbiIsIi5tb2RhbC1kaWFsb2cge1xuICBtYXgtd2lkdGg6IDUwMHB4O1xufVxuXG4uZGlzcGxheU5hbWUge1xuICBib3JkZXItcmFkaXVzOiAwIDAuMjVyZW0gMC4yNXJlbSAwO1xuICB3aWR0aDogNTAlO1xuICBtaW4td2lkdGg6IDIwMHB4O1xuICBib3JkZXI6IDFweCBzb2xpZCAjYzNjM2MzO1xuICBwYWRkaW5nLWxlZnQ6IDVweDtcbiAgZm9udC1mYW1pbHk6IFwiUm9ib3RvLVJlZ3VsYXJcIiwgXCJSb2JvdG9cIiwgc2Fucy1zZXJpZjtcbn1cblxuLmRpc3BsYXlOYW1lOmludmFsaWQge1xuICBib3JkZXItcmFkaXVzOiAwIDAuMjVyZW0gMC4yNXJlbSAwO1xuICB3aWR0aDogNTAlO1xuICBtaW4td2lkdGg6IDIwMHB4O1xuICBib3JkZXI6IDFweCBzb2xpZCAjYzNjM2MzO1xuICBib3JkZXItbGVmdDogNXB4IHNvbGlkICNmZjI5MjI7XG4gIHBhZGRpbmctbGVmdDogNXB4O1xuICBmb250LWZhbWlseTogXCJSb2JvdG8tUmVndWxhclwiLCBcIlJvYm90b1wiLCBzYW5zLXNlcmlmO1xufVxuXG4uc2VsZWN0LXBhZGRpbmcge1xuICBtYXJnaW46IDIwcHggMDtcbiAgcGFkZGluZzogMjBweCAwO1xufVxuXG4uYm0tY2FuY2VsIHtcbiAgbWFyZ2luLXJpZ2h0OiAtMTEuMDVyZW07XG59XG5cbi5ibS1tb2RhbCB7XG4gIHRvcDogMnJlbTtcbiAgd2lkdGg6IDEwMCU7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/emotions-form/emotions-form.component.ts":
+/*!*********************************************************************!*\
+  !*** ./src/app/components/emotions-form/emotions-form.component.ts ***!
+  \*********************************************************************/
+/*! exports provided: EmotionsFormComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmotionsFormComponent", function() { return EmotionsFormComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _model_channel_enum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/channel-enum */ "./src/app/components/model/channel-enum.ts");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+
+
+
+
+
+let EmotionsFormComponent = class EmotionsFormComponent {
+    constructor(activeModal, formBuilder) {
+        this.activeModal = activeModal;
+        this.formBuilder = formBuilder;
+        this.isValid = false;
+        this.channelList = [_model_channel_enum__WEBPACK_IMPORTED_MODULE_3__["Channel"].ANDROID_APP, _model_channel_enum__WEBPACK_IMPORTED_MODULE_3__["Channel"].BROWSER_EXTN, _model_channel_enum__WEBPACK_IMPORTED_MODULE_3__["Channel"].IOS_APP, _model_channel_enum__WEBPACK_IMPORTED_MODULE_3__["Channel"].MS_TEAMS, _model_channel_enum__WEBPACK_IMPORTED_MODULE_3__["Channel"].WEBSITE];
+        this.initialDropdownValue = '';
+        this.tooltipMessage = '';
+    }
+    createForm() {
+        this.form = this.formBuilder.group({
+            emotions: [this.emotion],
+            username: [''],
+            cause: [''],
+            channel: [''],
+        });
+        this.form_subscriber = this.form.valueChanges.subscribe(data => {
+            this.isValid = this.form.valid;
+            if (this.isValid) {
+                this.tooltipMessage = '';
+            }
+        });
+    }
+    submitForm() {
+        console.log('emotions form values: ' + this.form.getRawValue());
+        this.activeModal.close(this.form.getRawValue());
+    }
+    onCancelled() {
+        this.activeModal.close(false);
+    }
+    ngOnInit() {
+        this.createForm();
+    }
+};
+EmotionsFormComponent.ctorParameters = () => [
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbActiveModal"] },
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
+], EmotionsFormComponent.prototype, "emotion", void 0);
+EmotionsFormComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-emotions-form',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./emotions-form.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/emotions-form/emotions-form.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./emotions-form.component.scss */ "./src/app/components/emotions-form/emotions-form.component.scss")).default]
+    })
+], EmotionsFormComponent);
 
 
 
@@ -570,16 +681,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_services_dialog_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/dialog.service */ "./src/app/services/dialog.service.ts");
+
 
 
 let HomeComponent = class HomeComponent {
-    constructor() { }
+    constructor(dialogService) {
+        this.dialogService = dialogService;
+        this.isFormDisplayed = false;
+    }
     ngOnInit() {
     }
     onClick(mood) {
         console.log('mood selected: ' + mood);
+        this.isFormDisplayed = true;
+        this.dialogService.saveForm('Details form', mood).then(res => {
+            console.log(res);
+        })
+            .catch(err => {
+            console.log(err);
+        });
     }
 };
+HomeComponent.ctorParameters = () => [
+    { type: src_app_services_dialog_service__WEBPACK_IMPORTED_MODULE_2__["DialogService"] }
+];
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-home',
@@ -592,16 +718,89 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/components/model/channel-enum.ts":
+/*!**************************************************!*\
+  !*** ./src/app/components/model/channel-enum.ts ***!
+  \**************************************************/
+/*! exports provided: Channel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Channel", function() { return Channel; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+var Channel;
+(function (Channel) {
+    Channel["WEBSITE"] = "WEBSITE";
+    Channel["BROWSER_EXTN"] = "BROWSER_EXTN";
+    Channel["MS_TEAMS"] = "MS_TEAMS";
+    Channel["ANDROID_APP"] = "ANDROID_APP";
+    Channel["IOS_APP"] = "IOS_APP";
+})(Channel || (Channel = {}));
+
+
+/***/ }),
+
+/***/ "./src/app/services/dialog.service.ts":
+/*!********************************************!*\
+  !*** ./src/app/services/dialog.service.ts ***!
+  \********************************************/
+/*! exports provided: DialogService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DialogService", function() { return DialogService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var _components_emotions_form_emotions_form_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/emotions-form/emotions-form.component */ "./src/app/components/emotions-form/emotions-form.component.ts");
+
+
+
+
+let DialogService = class DialogService {
+    constructor(modalService) {
+        this.modalService = modalService;
+        this.modalOption = {};
+        this.modalOption.backdrop = 'static';
+        this.modalOption.keyboard = false;
+    }
+    saveForm(title, emotion) {
+        console.log('came here');
+        const modalRef = this.modalService.open(_components_emotions_form_emotions_form_component__WEBPACK_IMPORTED_MODULE_3__["EmotionsFormComponent"], this.modalOption);
+        modalRef.componentInstance.title = title;
+        if (emotion != null || undefined) {
+            modalRef.componentInstance.emotion = emotion;
+        }
+        return modalRef.result;
+    }
+};
+DialogService.ctorParameters = () => [
+    { type: _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_2__["NgbModal"] }
+];
+DialogService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], DialogService);
+
+
+
+/***/ }),
+
 /***/ "./src/environments/environment.ts":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
   \*****************************************/
-/*! exports provided: environment */
+/*! exports provided: environment, endpoints */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "endpoints", function() { return endpoints; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
@@ -612,6 +811,10 @@ console.log('base url: ' + baseApiUrl);
 const environment = {
     production: false,
     baseApiUrl
+};
+const endpoints = {
+    saveEmotionsUrl: `${environment.baseApiUrl}/emotions`,
+    getData: `${environment.baseApiUrl}/emotions`
 };
 /*
  * For easier debugging in development mode, you can import the following file
