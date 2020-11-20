@@ -111,7 +111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\">\n<meta http-equiv=\"Pragma\" content=\"no-cache\">\n<meta http-equiv=\"Expires\" content=\"0\">\n<div>\n    <div class=\"row\" style=\"margin: 5px 10px\"> \n    <div class=\"card col try col-margin\" (click)=\"onClick('Happy')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Happy</p>\n            <img src=\"./assets/images/happy.jpg\" style=\"margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin\" (click)=\"onClick('Indifferent')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Indifferent</p>\n        <img src=\"./assets/images/straight.jpg\" style=\"width: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n<div class=\"row\" style=\"margin: 0px 10px 5px 10px\">\n    <div class=\"card col try col-margin\" (click)=\"onClick('Sad')\">\n        <p class=\"text-center\">Sad</p>\n        <img src=\"./assets/images/sad.jpg\" style=\"margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin animated bounce infinite\" (lick)=\"onClick('Angry')\">\n        <p class=\"text-center\">Angry</p>\n        <img src=\"./assets/images/angry-thinking.jpg\" style=\"margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n</div>";
+    __webpack_exports__["default"] = "<meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\">\n<meta http-equiv=\"Pragma\" content=\"no-cache\">\n<meta http-equiv=\"Expires\" content=\"0\">\n<div>\n    <div class=\"row\" style=\"margin: 5px 10px\"> \n    <div class=\"card col try col-margin\" (click)=\"onClick('Happy')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Happy</p>\n            <img src=\"./assets/images/LGfaceHappy.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin\" (click)=\"onClick('Ok')\" style=\"margin-bottom: 5px;\">\n        <p class=\"text-center\">Ok</p>\n        <img src=\"./assets/images/LGfaceOk.gif\" style=\"width: 210px; height: 210px;width: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n<div class=\"row\" style=\"margin: 0px 10px 5px 10px\">\n    <div class=\"card col try col-margin\" (click)=\"onClick('Unhappy')\">\n        <p class=\"text-center\">Unhappy</p>\n        <img src=\"./assets/images/LGfaceUnhappy.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n    <div class=\"card col try col-margin animated bounce infinite\" (click)=\"onClick('Frustrated')\">\n        <p class=\"text-center\">Frustrated</p>\n        <img src=\"./assets/images/LGfaceFrustrated.gif\" style=\"width: 210px; height: 210px;margin-left: auto;\n        margin-right: auto;\n        display: block;\">\n    </div>\n</div>\n</div>";
     /***/
   },
 
@@ -1193,8 +1193,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     // The list of file replacements can be found in `angular.json`.
 
 
+    var baseApiUrl = "".concat(window.location.protocol, "//").concat(window.location.host);
+    console.log('base url: ' + baseApiUrl);
     var environment = {
-      production: false
+      production: false,
+      baseApiUrl: baseApiUrl
     };
     /*
      * For easier debugging in development mode, you can import the following file
